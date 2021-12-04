@@ -627,6 +627,7 @@
 .nav-title {
   font-weight: 500;
   font-size: 20px;
+  margin-top: 0;
 }
 .resource {
   display: flex;
@@ -644,7 +645,8 @@
 .form-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 30px;
+  margin-top: 0;
+  
 }
 .form-input {
   border: 1px solid #bcd0e5;
