@@ -2,6 +2,99 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+/* Burger menu start */
+.mobile_menu_overlay, .mobile_menu_container{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.mobile_menu_container, .mobile_menu_container ul li ul{
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	transition: all 200ms;
+}
+.mobile_menu_overlay{
+	display: none;
+	cursor: pointer;
+	z-index: 10200;
+	background: rgba(0, 0, 0, 0.5);
+}
+.mobile_menu_container{
+	-webkit-transform: translateX(-300px);
+	transform: translateX(-300px);
+	width: 300px;
+	overflow: hidden;
+	z-index: 10201;
+	background: white;
+}
+.mobile_menu_container.loaded{
+   	-webkit-transform: translateX(0px);
+   	transform: translateX(0px);
+}
+.mobile_menu_container .mobile_menu_content{
+	overflow: auto;
+	max-height: 100%;
+	padding-bottom: 30px;
+}
+.mobile_menu_container ul{
+	margin: 0;
+	padding: 0;
+}
+.mobile_menu_container ul li{
+	list-style: none;
+}
+.mobile_menu_container ul li a{
+	display: block;
+	padding: 15px 20px;
+	line-height: 20px;
+	font-size: 16px;
+	background: white;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.mobile_menu_container ul li a.parent{
+	padding-right: 50px;
+}
+.mobile_menu_container ul li a.back{
+	padding-left: 50px;
+	/* background: #3c8de8 url("images/arrow_left.svg") left 20px center no-repeat; */
+	background-size: 20px;
+	box-sizing: border-box;
+	min-height: 50px;
+}
+.mobile_menu_container ul li ul{
+	-webkit-transform: translateX(300px);
+	transform: translateX(300px);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* background: #3884da; */
+	z-index: 2;
+}
+.mobile_menu_container ul li ul.loaded{
+	-webkit-transform: translateX(0px);
+	transform: translateX(0px);
+}
+.mobile_menu_container ul li ul.activity{
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.burger-lik {
+    font-size: 25px;
+  }
+@media (max-width: 320px){
+	.mobile_menu_container{
+		width: 240px;
+	}
+}
+/* Burger menu end */
+
 .header {
   display: block;
   margin-top: 20px;
@@ -10,6 +103,8 @@
   display: flex;
   max-width: 1100px;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .header-content {
   display: flex;
@@ -27,7 +122,7 @@
   align-items: center;
 }
 .header-logo {
-  min-width: 455px;
+  min-width: 380px;
 }
 .sigin-in {
   background-color: transparent;
@@ -646,7 +741,6 @@
   font-weight: 500;
   font-size: 20px;
   margin-top: 0;
-  
 }
 .form-input {
   border: 1px solid #bcd0e5;
@@ -664,3 +758,97 @@
   border: none;
 }
 /* Footer end */
+
+@media (max-width: 1088px) {
+  .header .header-content .header-logo {
+    min-width: 300px;
+  }
+  .container {
+    max-width: 980px;
+  }
+  .section1 .img {
+    width: 95%;
+  }
+  .section3 .img {
+    width: 95%;
+  }
+  .section3 .adv-title {
+    font-size: 26px;
+  }
+  .section3 .second-text {
+    width: 400px;
+  }
+  .section4 .img2 {
+    width: 95%;
+    margin-right: 0;
+  }
+  .section4 .adv-title {
+    font-size: 26px;
+  }
+  .section5 .img {
+    width: 95%;
+  }
+  .section5 .adv-title {
+    font-size: 26px;
+  }
+  .section5 .second-text {
+    width: 400px;
+  }
+  .opinions-header {
+    margin-top: 100px;
+  }
+  .slider {
+    margin-bottom: 100px;
+  }
+  .slider-header {
+    margin-top: 100px;
+  }
+  .slider .slider-card .slider-img {
+    width: 300px;
+  }
+  .slider .slider-card {
+    width: 300px;
+  }
+  .slider .slider-card-text .card-title {
+    font-size: 20px;
+  }
+  .cards .price-cards {
+    padding-top: 14px;
+    padding-bottom: 22px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .cards .price-cards-primary {
+    padding-top: 14px;
+    padding-bottom: 22px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .reviews-item {
+    width: 300px;
+    padding: 25px 25px;
+  }
+  .social-buttons {
+    max-width: 230px;
+  }
+}
+@media (max-width: 972px) {
+  .header .header-content .header-logo {
+    min-width: 250px;
+  }
+  .features-block__title {
+    margin-top: 100px;
+  }
+  .advantages {
+    margin-top: 100px;
+  }
+}
+@media (max-width:923px) {
+  .header .header-content .navbar {
+    visibility: hidden;
+  }
+}
