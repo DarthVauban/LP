@@ -1339,4 +1339,170 @@
   .section3 .features .features__items {
     flex-direction: column;
   }
+  .footer {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 430px) {
+    .section5 .advantages .advantages-content .second-title {
+    font-size: 16px;
+  }
+  .section1 .get-started .get-started__button .get-started_button {
+    font-size: 15px;
+    padding: 15px 30px;
+    max-width: 140px;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;  
+  }
+  .section1 .get-started .watch-video>.watch-video {
+    font-size: 15px;
+    max-width: 140px;
+    width: 100%;
+  }
+  .section1 .get-started .buttons {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .join-card-content {
+    margin-bottom: 100px;
+  } 
+  .join-card-content .join-card .ofer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .join-card-content .join-card {
+    max-width: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .join-card-content .join-card .join-title {
+    padding-left: 20px;
+    max-width: 280px;
+    padding:20px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .join-card-content .join-card .join-button {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    width: 50%;
+  }
+  .join-card-content .join-card .join-igm-item {
+    display: none;
+  }
+  .footer .footer-content .footer-links {
+    flex-direction: column;
+  }
+  .footer .footer-content .footer-links .social-buttons {
+    margin-bottom: 30px;
+  }
+  .footer .footer-content .footer-links .resource {
+    margin-bottom: 30px;
+  }
+  .footer .footer-content .footer-links .legal-stuff {
+    margin-bottom: 30px;
+  }
+  .slider .slider-card .slider-img {
+    width: 100%;
+  }
+  .slider .slider-card {
+    width: 100%;
+  }
+  .slider .slider-card-text .card-title {
+    font-size: 23px;
+  }
+  .slider .slider-card-text .date {
+    font-size: 16px;
+  }
+  .cards .price-cards {
+    width: 80%;
+    padding-top: 14px;
+    padding-bottom: 22px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+  .cards .price-cards-primary {
+    width: 80%;
+    padding-top: 14px;
+    padding-bottom: 22px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+  .section3 .features .features__items {
+    flex-direction: column;
+  }
+  .footer {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 550px) {
+  .cards .price-cards {
+    width: 70%;
+    padding-top: 14px;
+    padding-bottom: 22px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+  .cards .price-cards-primary {
+    width: 70%;
+    padding-top: 14px;
+    padding-bottom: 22px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+  .footer .footer-content .footer-links {
+    flex-direction: column;
+  }
+  .footer .footer-content .footer-links .social-buttons {
+    margin-bottom: 30px;
+  }
+  .footer .footer-content .footer-links .resource {
+    margin-bottom: 30px;
+  }
+  .footer .footer-content .footer-links .legal-stuff {
+    margin-bottom: 30px;
+  }
+  .join-card-content .join-card .ofer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .join-card-content .join-card {
+    max-width: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .join-card-content .join-card .join-title {
+    padding-left: 20px;
+    max-width: 280px;
+    padding:20px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .join-card-content .join-card .join-button {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    width: 70%;
+  }
+  .join-card-content .join-card .join-igm-item {
+    width: 100%;
+  }
 }
