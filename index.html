@@ -43,6 +43,13 @@
       </div>
       <!-- Burger menu -->
       <div class="mobile_menu_container">
+        <div class="mobile-header-logo">
+          <img
+            src="./img/Group 1437.svg"
+            alt=""
+            class="mobile-header-logo_img"
+          />
+        </div>
         <div class="mobile_menu_content">
           <ul>
             <li><a href="#" class="burger-lik">Product</a></li>
@@ -51,12 +58,17 @@
             <li><a href="#" class="burger-lik">Resources</a></li>
           </ul>
         </div>
+        <div class="mobile-auth">
+          <button class="mobile_sigin-in">Sign In</button>
+          <button class="mobile_sigin-up">Sign Up</button>
+        </div>
+        <div class="mobile-dark-mode">
+          <p class="dark-mode_text">Dark mode</p>
+          <img src="./img/dark-mode.svg" alt="" class="mobile-dark-mode_img" />
+        </div>
       </div>
       <div class="mobile_menu_overlay"></div>
       <!-- Burger menu -->
-      <!-- <div class="menu_container">
-        <a href="#" class="mobile_menu">Показать меню</a>
-      </div> -->
       <div class="burger-menu mobile_menu">
         <span class="line"></span>
       </div>
@@ -109,7 +121,8 @@
             </p>
           </div>
           <div class="features__items">
-            <div class="features-item">
+            <div class="features__items_block">
+              <div class="features-item">
               <img src="./img/features 1.svg" alt="" class="features-icon" />
               <p class="features-title">First click tests</p>
               <p class="features-description">
@@ -125,7 +138,9 @@
                 and bingo playing for the fun
               </p>
             </div>
-            <div class="features-item">
+            </div>
+            <div class="features__items_block">
+              <div class="features-item">
               <img src="./img/features 3.svg" alt="" class="features-icon" />
               <p class="features-title">Preference tests</p>
               <p class="features-description">
@@ -141,6 +156,7 @@
                 overall personality of the <br />
                 person
               </p>
+            </div>
             </div>
           </div>
           <div class="features-button">
@@ -609,10 +625,11 @@
     <!-- Join end -->
 
     <!-- Footer start -->
-    <footer>
+    <footer class="footer">
       <div class="container">
         <div class="footer-content">
-          <div class="social-buttons">
+         <div class="footer-links">
+            <div class="social-buttons">
             <div class="logo">
               <img src="./img/footer-logo.svg" alt="" class="footer-logo" />
             </div>
@@ -622,7 +639,6 @@
               <img src="./img/twitter.svg" alt="" class="social-logo" />
             </div>
           </div>
-          <div class="links">
             <nav class="resource">
               <p class="nav-title">Resource</p>
               <a href="" class="qick-link">About Us</a>
@@ -637,7 +653,7 @@
               <a href="" class="qick-link">Privacy Policy</a>
               <a href="" class="qick-link">Terms of Service</a>
             </nav>
-          </div>
+         </div>
           <form action="#" class="footer-form">
             <p class="form-title">
               knowing you're always on <br />
